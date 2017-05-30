@@ -25,7 +25,7 @@
                 </ul>
             </nav>
             <footer>
-              &copy; Kesari Devi Charitable Trust, 2017
+                &copy; Kesari Devi Charitable Trust, 2017
             </footer>
         </div>
         <div class="content">
@@ -33,6 +33,15 @@
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
         <script src="./scripts/app.js" charset="utf-8"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .register('./scripts/sw.js')
+                    .then(function () {
+                        console.log("Service Worker Registered");
+                    });
+            }
+        </script>
     </div>
 </body>
 
