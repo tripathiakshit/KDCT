@@ -1,0 +1,162 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  background-color: #222;
+  color: #FFF;
+}
+
+::selection {
+  background-color: #222;
+  color: #FFF;
+}
+
+.container {
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #FFF;
+  background-attachment: fixed;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 20%;
+}
+
+.sidebar .logo {
+  background-color: #FFF;
+  padding: 5%;
+}
+
+.sidebar .logo img {
+  width: 90%;
+  height: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  border: 1px solid #AAA;
+  border-radius: 5px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 1em;
+  padding: 0.75em;
+  transition: 0.2s;
+}
+
+.sidebar ul li:hover {
+  content: ">";
+  cursor: pointer;
+  box-shadow: 1px 1px .45em rgba(0, 0, 0, 0.4);
+  transition: 0.2s;
+}
+
+.sidebar footer {
+  bottom: 1em;
+  color: #777;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+  font-weight: 300;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+div.content {
+  background-color: #EEE;
+  background-attachment: fixed;
+  background-repeat: space;
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+article.card {
+  box-shadow: 2px 2px 0.35em grey;
+  background-color: #FFF;
+  margin: 2em auto;
+  padding: 0;
+  max-width: 80%;
+}
+
+article.card header {
+  background-color: #FAFAFA;
+  border-bottom: 1px solid lightgrey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  word-spacing: 0.15em;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+article.card img {
+  margin: 15px;
+}
+
+article.card p {
+  color: #636363;
+  font-family: 'Lora', serif;
+  text-align: justify;
+  font-size: 1.208em;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin: 0 auto;
+  padding: 0.75em;
+  width: 90%;
+}
+
+article.card ul {
+  color: #636363;
+  list-style: circle;
+  font-family: 'Lora', serif;
+  font-size: 1.208em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+article.card ul li {
+  text-align: justify;
+  margin: 1em;
+}
+
+table {
+  font-family: 'Lora', serif;
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+table strong {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  line-height: 1.85em;
+}
+.i1 {
+  float: right;
+}
+
+.button{
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.5em 0.25em;
+  text-align:center;
+  box-shadow: 1px 1px 0.25em #777;
+  background-image: linear-gradient(#333,#444);
+}
+.buttoncenter{
+  margin: 0 auto;
+  width:100%;
+}

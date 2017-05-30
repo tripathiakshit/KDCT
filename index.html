@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Kesari Devi Charitable Trust</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/theme.css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="media/logo.png" alt="Site Logo" width="100%" height="auto" />
+            </div>
+            <nav>
+                <ul>
+                    <li class="selected" id="home" onclick="loadContent('home')">Home</li>
+                    <li class="" id="project" onclick="loadContent('project')">About Our Project</li>
+                    <li class="" id="about" onclick="loadContent('about')">About Us</li>
+                    <li class="" id="support" onclick="loadContent('support')">Support Us</li>
+                    <li class="" id="reports" onclick="loadContent('reports')">Events and News</li>
+                    <li class="" id="contact" onclick="loadContent('contact')">Contact Info</li>
+                </ul>
+            </nav>
+            <footer>
+              &copy; Kesari Devi Charitable Trust, 2017
+            </footer>
+        </div>
+        <div class="content">
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script src="./scripts/app.js" charset="utf-8"></script>
+    </div>
+</body>
+
+</html>
