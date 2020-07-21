@@ -152,61 +152,10 @@ footer {
   height: auto;
 }
 
-table {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-  border: solid thin;
-  border-collapse: collapse;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 400;
-}
-
-table caption {
-  padding-bottom: 0.5em;
-}
-
-table th,
-table td {
-  border: solid thin;
-}
-
-table td:first-child {
-  white-space: nowrap;
-}
-
-table th {
-  font-weight: normal;
-}
-
-table td {
-  border-style: none solid;
-  vertical-align: top;
-}
-
-table th {
-  padding: 0.2em;
-  vertical-align: middle;
-  text-align: center;
-}
-
 img#index_img1 {
   shape-outside: ellipse(141px 147px at center center);
 }
 
-@media (max-width: 767px) {
-
-  img#index_img1 {
-    shape-outside: none;
-  }
-
-  p,
-  ul {
-    line-height: 1.6;
-    letter-spacing: -0.035em;
-    font-weight: 300;
-  }
-  
   table {
   width: 80%;
   text-align: center;
@@ -228,6 +177,58 @@ table td {
 }
 
 table td {
+  white-space: nowrap;
+}
+
+table th {
+  font-weight: normal;
+}
+
+table td {
+  border-style: none solid;
+  vertical-align: top;
+}
+
+table th {
+  padding: 0.2em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+
+  img#index_img1 {
+    shape-outside: none;
+  }
+
+  p,
+  ul {
+    line-height: 1.6;
+    letter-spacing: -0.035em;
+    font-weight: 300;
+  }
+  
+
+table {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  border: solid thin;
+  border-collapse: collapse;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+}
+
+table caption {
+  padding-bottom: 0.5em;
+}
+
+table th,
+table td {
+  border: solid thin;
+}
+
+table td:first-child {
   white-space: nowrap;
 }
 
