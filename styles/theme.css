@@ -230,7 +230,7 @@ table caption {
 table th,
 table td {
   border: solid thin;
-  whitespace: normal;
+  white-space: normal;
 }
 
 table td:first-child {
