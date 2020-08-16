@@ -153,7 +153,17 @@ footer {
 }
 
 img#index_img1 {
-  shape-outside: ellipse(141px 147px at center center);
+  float: right;
+  margin: 1rem;
+  shape-outside: ellipse(140px 140px at center center);
+}
+
+img#index_img2 {
+  float: left;
+  margin: 1rem;
+  width: 163px;
+  height: auto;
+  shape-outside: ellipse();
 }
 
   table {
