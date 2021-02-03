@@ -80,20 +80,18 @@ header nav a:hover {
 p,
 ul {
   font-variant-ligatures: common-ligatures;
-  -moz-font-feature-settings: "liga", "salt", "ss##", "c2sc";
-  -webkit-font-feature-settings: "liga", "salt", "ss##", "c2sc";
-  font-feature-settings: "liga", "salt", "ss##", "c2sc";
-  font-family: proxima-nova, sans-serif;
+  -moz-font-feature-settings: "liga", "salt", "ss##";
+  -webkit-font-feature-settings: "liga", "salt", "ss##";
+  font-feature-settings: "liga", "salt", "ss##";
+  font-family: 'Source Sans Pro', sans-serif;
   color: rgba(0, 0, 0, 0.9);
-  line-height: 1.6;
-  letter-spacing: -0.035em;
+  line-height: 1.4;
   font-weight: 300;
   font-style: normal;
   text-align: justify;
   text-align-last: start;
-  max-width: 65ch;
+  max-width: 75ch;
   margin: 0 auto 0.5rem;
-  font-stretch: semi-condensed;
 }
 
 pre {
@@ -131,7 +129,7 @@ h6 {
 footer {
   grid-area: footer;
   text-align: center;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1;
   font-size: 80%;
   font-style: normal;
@@ -166,13 +164,13 @@ img#index_img2 {
   shape-outside: ellipse();
 }
 
-  table {
+table {
   width: 80%;
   text-align: center;
   margin: 0 auto;
   border: solid thin;
   border-collapse: collapse;
-  font-family: proxima-nova, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
 }
 
@@ -221,44 +219,44 @@ table th {
     letter-spacing: -0.035em;
     font-weight: 300;
   }
-  
 
-table {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-  border: solid thin;
-  border-collapse: collapse;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 400;
-}
 
-table caption {
-  padding-bottom: 0.5em;
-}
+  table {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border: solid thin;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+  }
 
-table th,
-table td {
-  border: solid thin;
-  white-space: normal;
-}
+  table caption {
+    padding-bottom: 0.5em;
+  }
 
-table td:first-child {
-  white-space: nowrap;
-}
+  table th,
+  table td {
+    border: solid thin;
+    white-space: normal;
+  }
 
-table th {
-  font-weight: normal;
-}
+  table td:first-child {
+    white-space: nowrap;
+  }
 
-table td {
-  border-style: none solid;
-  vertical-align: top;
-}
+  table th {
+    font-weight: normal;
+  }
 
-table th {
-  padding: 0.2em;
-  vertical-align: middle;
-  text-align: center;
-}
+  table td {
+    border-style: none solid;
+    vertical-align: top;
+  }
+
+  table th {
+    padding: 0.2em;
+    vertical-align: middle;
+    text-align: center;
+  }
 }
