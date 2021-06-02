@@ -36,7 +36,7 @@ header .logo {
   text-align: center;
 }
 
-header img {
+header > img {
   grid-area: logo;
   height: auto;
   width: 80vw;
@@ -73,7 +73,7 @@ header nav a:hover {
   box-shadow: 0 8px 15px 2px hsla(224.9, 70.2%, 50%, 0.32), 0 4px 6px hsla(225, 100%, 60%, 0.55);
 }
 
-.content {
+main > .content {
   grid-area: content;
 }
 
@@ -138,6 +138,11 @@ footer {
   background: linear-gradient(to bottom, #fff, #ddd);
 }
 
+.splide__slide img {
+  width : 100%;
+  height: auto;
+}
+
 #gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -145,7 +150,7 @@ footer {
   width: 90vw;
 }
 
-#gallery img {
+#gallery > img {
   width: 100%;
   height: auto;
 }
