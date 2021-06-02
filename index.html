@@ -35,22 +35,24 @@
         </nav>
     </header>
     <div class="content">
-        <div class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide" style="width: 409px">
+        <div id="gallery">
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide" style="width: 409px">
                             <img src="media/img/home_slider/A1.png" alt="Help keep them studying">
-                    </li>
-                    <li class="splide__slide" style="width: 1024px">
+                        </li>
+                        <li class="splide__slide" style="width: 1024px">
                             <img src="media/img/home_slider/A2.JPG" alt="Help keep them studying">
-                    </li>
-                    <li class="splide__slide" style="width: 864px">
+                        </li>
+                        <li class="splide__slide" style="width: 864px">
                             <img src="media/img/home_slider/A3.png" alt="Help keep them eating">
-                    </li>
-                    <li class="splide__slide" style="width: 1080px">
+                        </li>
+                        <li class="splide__slide" style="width: 1080px">
                             <img src="media/img/home_slider/A4.JPG" alt="Help keep them dancing">
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <h1>Preamble</h1>
@@ -143,7 +145,7 @@
         &copy; Kesari Devi Charitable Trust, 2020
     </footer>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="scripts/splide.js"></script>
 </body>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -151,12 +153,13 @@
             type: "loop",
             perPage: 1,
             autoWidth: true,
+            autoplay: true,
             height: "50vh",
-            rewind: true,
-            // cover: true,
             breakpoints: {
                 640: {
-                    height: "40vh"
+                    autoWidth: false,
+                    height: "40vh",
+                    cover: "true"
                 }
             }
         }).mount();

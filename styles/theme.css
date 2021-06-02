@@ -36,7 +36,7 @@ header .logo {
   text-align: center;
 }
 
-header > img {
+header > .logo > img {
   grid-area: logo;
   height: auto;
   width: 80vw;
@@ -148,6 +148,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
   width: 90vw;
+  margin-block-start: 1rem;
 }
 
 #gallery > img {
@@ -221,8 +222,8 @@ table th {
   p,
   ul {
     line-height: 1.6;
-    letter-spacing: -0.035em;
-    font-weight: 300;
+    font-weight: 400;
+    text-align: start;
   }
 
 
